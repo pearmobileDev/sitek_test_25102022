@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:gravity="left|center_vertical"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:layout_width="match_parent"
+	android:layout_height="100dp">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="RESPONSE - "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/response"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="CONTINUE WORK - "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/continue_work"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="PHOTO HASH - "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/photohash"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+			android:text="CURRENT DATE - "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/current_date"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+</LinearLayout>
